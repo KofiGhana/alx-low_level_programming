@@ -1,27 +1,17 @@
 #include <stdio.h>
 /**
- * main - A function that prints alphabet in lowercase and uppercase
+ * main - Function that prints lower and uppercase alphabets
  * Return: 0
  */
 
 int main(void)
 {
-	char k;
+	int kn;
 
-	char n;
-
-	k = 'a';
-	n = 'A';
-	while
-		(k <= 'z') {
-			putchar(k);
-			k++;
-		}
-	while
-		(n <= 'z') {
-			putchar(n);
-			n++;
-		}
+	for (kn = 'a'; kn <= 'z'; kn++)
+		putchar(kn);
+	for (kn = 'A'; kn <= 'Z'; kn++)
+		putchar(kn);
 	putchar('\n');
 	return (0);
 }
