@@ -7,15 +7,15 @@
 int main(void)
 {
         int k;
-        unsigned long fibo1 = 0, fibo2 = 1, sum;
+        unsigned long fib1 = 0, fib2 = 1, sum;
 
         for (k = 0; k < 50; k++)
         {
-                sum = fibo1 + fibo2;
+                sum = fib1 + fib2;
                 printf("%lu", sum);
 
-                fibo1 = fibo2;
-                fibo2 = sum;
+                fib1 = fib2;
+                fib2 = sum;
 
                 if (k == 49)
                         printf("\n");
